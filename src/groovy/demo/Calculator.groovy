@@ -9,6 +9,6 @@ class Calculator {
     String arg
 
     def run () {
-        shell.evaluate(arg).toString() + "qqq"
+        shell.evaluate(arg).toString()
     }
 }
